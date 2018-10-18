@@ -7,7 +7,7 @@
 * [Fork the project](#fork-the-project)
 * [Clone the files](#clone-the-files)
 * [Add upstream](#add-upstream)
-* [Branch](#branch)
+* [Branching](#branching)
 * [Do the actual work](#do-the-actual-work)
 * [Push your changes](#push-your-changes)
 * [Create the Pull Request](#create-the-pull-request)
@@ -53,7 +53,7 @@ git remote add upstream git@github.com:name/project.git
 ```
 
 
-## Branch 
+## Branching
 
 Check for the project's right branching model (e.g. [git-flow](https://nvie.com/posts/a-successful-git-branching-model/)) and `git checkout branchname` 
 
