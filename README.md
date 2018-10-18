@@ -1,17 +1,5 @@
 # A quick guide
-
 [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
-
-## Table of Contents
-* [tl;dr](#tldr)
-* [Fork the project](#fork-the-project)
-* [Clone the files](#clone-the-files)
-* [Add upstream](#add-upstream)
-* [Branching](#branching)
-* [Do the actual work](#do-the-actual-work)
-* [Push your changes](#push-your-changes)
-* [Create the Pull Request](#create-the-pull-request)
-
 
 ## tl;dr
 |&nbsp;| action         | hint                                                      |
@@ -23,6 +11,20 @@
 | 5.   | _work_         | finally :gem:                                             |
 | 6.   | _push_         | `git push -u origin new-branch`                           |
 | 7.   | _create PR_    | click <kbd>Compare & pull request</kbd>                   |
+
+---
+
+
+## Table of Contents
+* [tl;dr](#tldr)
+* [Fork the project](#fork-the-project)
+* [Clone the files](#clone-the-files)
+* [Add upstream](#add-upstream)
+* [Branching](#branching)
+* [Do the actual work](#do-the-actual-work)
+* [Push your changes](#push-your-changes)
+* [Create the Pull Request](#create-the-pull-request)
+
 
 
 ## Fork the project
