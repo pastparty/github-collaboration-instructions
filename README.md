@@ -3,7 +3,7 @@
 
 ## tl;dr
 |&nbsp;| action         | hint                                                      |
-|------|----------------|-----------------------------------------------------------|
+|------|:---------------|:----------------------------------------------------------|
 | 1.   | _fork_         | click <kbd>Fork</kbd>                                     |
 | 2.   | _clone_        | `git clone git@github.com:name/project.git`               |
 | 3.   | _add upstream_ | `git remote add upstream git@github.com:name/project.git` |
