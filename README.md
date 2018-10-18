@@ -3,7 +3,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
 
 ## Table of Contents
-* [tl;dr](#tl-dr)
+* [tl;dr](#tldr)
 * [Fork the project](#fork-the-project)
 * [Clone the files](#clone-the-files)
 * [Add upstream](#add-upstream)
@@ -14,22 +14,23 @@
 
 
 ## tl;dr
-|&nbps;| action       | hint                                                      |
-|------|--------------|-----------------------------------------------------------|
-| 1.   | fork         | click <kbd>Fork</kbd>                                     |
-| 2.   | clone        | `git clone git@github.com:name/project.git`               |
-| 3.   | add upstream | `git remote add upstream git@github.com:name/project.git` |
-| 4.   | branch       | `git checkout -b new-branch`                              |
-| 5.   | work         | _finally_                                                 |
-| 6.   | push         | `git push -u origin new-branch`                           |
-| 7.   | create PR    | click <kbd>Compare & pull request</kbd>                   |
+|&nbsp;| action         | hint                                                      |
+|------|----------------|-----------------------------------------------------------|
+| 1.   | _fork_         | click <kbd>Fork</kbd>                                     |
+| 2.   | _clone_        | `git clone git@github.com:name/project.git`               |
+| 3.   | _add upstream_ | `git remote add upstream git@github.com:name/project.git` |
+| 4.   | _branch_       | `git checkout -b new-branch`                              |
+| 5.   | _work_         | finally :gem:                                             |
+| 6.   | _push_         | `git push -u origin new-branch`                           |
+| 7.   | _create PR_    | click <kbd>Compare & pull request</kbd>                   |
 
 
 ## Fork the project
 
 Create a fork into your github by clicking the respective button inside the original project.
 
-## Clone
+
+## Clone the files
 
 Create a local copy of the project files and `cd` into it.
 
@@ -38,18 +39,19 @@ git clone git@github.com:name/project.git`
 cd project
 ```
 
-git clone https://github.com/pastparty/github-collaboration-instructions.git && cd !$:t
 
 ## Add upstream
 
 Add the _upstream_ to the original project.
 
-_origin_ points to your fork of the project (read + write)
-_upstream_ points to the original project (read)
+:arrow_upper_right: _origin_ points to your fork of the project (read + write)
+
+:arrow_upper_right: _upstream_ points to the original project (read)
 
 ```bash
 git remote add upstream git@github.com:name/project.git
 ```
+
 
 ## Branch 
 
@@ -60,31 +62,34 @@ git checkout master
 git pull upstream master && git push origin master
 git checkout -b new-branch
 ```
-reads as
+reads as:
 
 _Switch into `master` branch, have a look into the original project's master branch and update your local `master` branch and send these updates to your fork's master branch. Afterwards create and switch to `new-branch` locally._
 
-## Work
+
+## Do the actual work
 
 Now you work on the actual files you want to. 
-Add, commit as usual.
+Add, commit, business as usual.
 
-## Push
+
+## Push your changes
 
 After you finished your work you want to create the Pull Request in the original's project repository.
 
 ```bash
 git push -u origin new-branch
 ```
-
-reads as
+reads as:
 
 _Push my `new-branch` containing my work to my github fork and link the changes to the original project._
 
-## Pull Request
+
+## Create the Pull Request
 
 Checkout your fork on Github and click the shiny buttonto create a pull request.
 Create a matching description and don't forget to read the projects contribution guidelines.
 
+---
 
-With the help of [The beginner's guide to contributing to a GitHub project](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/) by Rob Allen.
+With the help of [The beginner's guide to contributing to a GitHub project](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/) by Rob Allen. Thanks.
