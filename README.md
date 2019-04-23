@@ -89,7 +89,7 @@ _Push my `new-branch` containing my work to my github fork and link the changes 
 
 ## Create the Pull Request
 
-Checkout your fork on Github and click the shiny buttonto create a pull request.
+Checkout your fork on Github and click the shiny button to create a pull request.
 Create a matching description and don't forget to read the projects contribution guidelines.
 
 ---
